@@ -1,6 +1,8 @@
- import styled, {css} from "styled-components";
+import styled, {css} from "styled-components";
 
 import { ArrowLeft, Home, Search, Notifications, Email } from '../../styles/Icons'
+
+import FeedUser from  '../Feed';
 
 export const Container = styled.div`
   display: flex;
@@ -12,12 +14,14 @@ export const Container = styled.div`
     border-left: 1px solid var(--outline);
     border-right: 1px solid var(--outline);
   }
-
 `;
 
 export const Header = styled.div`
+  z-index: 2;
   position: sticky;
   top: 0;
+
+  background: var(--primary);
 
   display: flex;
   align-items: center;
@@ -101,3 +105,5 @@ export const HomeIcon = styled(Home)`${iconCSS}`;
 export const SearchIcon = styled(Search)`${iconCSS}`;
 export const BellIcon = styled(Notifications)`${iconCSS}`;
 export const EmailIcon = styled(Email)`${iconCSS}`;
+
+export const Feed = styled(FeedUser)``;
