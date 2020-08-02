@@ -44,11 +44,11 @@ const Tweet: React.FC = () => {
           <Icons>
             <Status>
               <CommentIcon />
-              18
+              1
             </Status>
             <Status>
               <RetweetIcon />
-              18
+              2
             </Status>
             <Status>
               <LikeIcon />
