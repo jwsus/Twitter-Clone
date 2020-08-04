@@ -12,7 +12,6 @@ import {
   EmailIcon,
   FavoriteIcon,
   ProfileIcon
-
 } from './styles';
 
 const MenuBar: React.FC = () => {
