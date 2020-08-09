@@ -20,3 +20,19 @@
 ## 🧐 Sobre <a name = "about"></a>
 Uma aplicação totalmente responsiva da página de perfil do Twitter (web).
 Desenvolvido com auxilio da aula do [Guilherme Rodz](https://github.com/guilhermerodz)
+## 🏁 Getting Started <a name = "getting_started"></a>
+
+- Acessar terminal dentro do diretório do sistema e usar
+
+```
+npm install
+npm start
+```
+
+- O browser irá abrir automaticamente na porta 3000
+
+
+## ✍️ Authors <a name = "authors"></a>
+
+- [Michel de Jesus](https://www.linkedin.com/in/michel-de-jesus-966187164/)
+- [Guilherme Rodz](https://github.com/guilhermerodz) - Instrutor
