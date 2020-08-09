@@ -175,6 +175,6 @@ export const ExitIcon = styled(ExitToApp)`
       > path {
         color: var(--like);
       }
-    }
+    }  
   }
 `;

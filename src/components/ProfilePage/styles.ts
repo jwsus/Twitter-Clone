@@ -4,7 +4,7 @@ import {LocationOn, Cake} from '../../styles/Icons';
 
 import Button from '../Button';
 
-import FeedUser from  '../Feed';
+// import FeedUser from  '../Feed';
 
 export const Container = styled.div`
   display: flex;
@@ -127,4 +127,3 @@ export const EditButton = styled(Button)`
     font-size: 15px;
   }
 `;
-

@@ -1,13 +1,14 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
-  margin: 0 auto;
+  background: var(--primary);
 `;
-
 export const Wrapper = styled.div`
-  height: 100%;
   max-width: 1280px;
+  height: 100%;
   margin: 0 auto;
+
   display: flex;
   justify-content: center;
-`;
+  
+`
