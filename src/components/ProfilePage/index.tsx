@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Feed from '../Feed';
+
 import { 
   Container, 
   Banner, 
@@ -8,8 +10,7 @@ import {
   LocationIcon,
   CakeIcon,
   FollowAge,
-  EditButton,
-  Feed
+  EditButton
 } from './styles';
 
 const ProfilePage: React.FC = () => {
@@ -24,7 +25,7 @@ const ProfilePage: React.FC = () => {
         <h2>@michel</h2>
 
         <p>
-          Developer at <a href="https://www.google.com">Google</a>
+          Procurando por trabalho remoto
         </p>
 
         <ul>

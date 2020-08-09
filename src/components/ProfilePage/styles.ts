@@ -128,4 +128,3 @@ export const EditButton = styled(Button)`
   }
 `;
 
-export const Feed = styled(FeedUser)``;
