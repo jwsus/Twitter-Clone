@@ -21,6 +21,10 @@
 ## 🧐 Sobre <a name = "about"></a>
 Uma aplicação totalmente responsiva da página de perfil do Twitter (web).
 Desenvolvido com auxilio da aula do [Guilherme Rodz](https://github.com/guilhermerodz)
+
+## Acesse
+De uma olhada em como a aplicação ficou, [clique aqui](https://hopeful-bassi-cf307a.netlify.app)
+
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
 - Acessar terminal dentro do diretório do sistema e usar
