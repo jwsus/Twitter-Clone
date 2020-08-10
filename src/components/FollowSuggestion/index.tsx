@@ -17,7 +17,7 @@ const FollowSugestion: React.FC<Props> = ({
     <Container>
       <div>
         <Avatar>
-          <img src={img} />
+          <img alt="sugestões para seguir" src={img} />
         </Avatar>
         <Info>
           <strong>{name}</strong>
