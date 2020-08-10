@@ -44,13 +44,18 @@ export const Body = styled.div`
 export const Avatar = styled.div`
   width: 49px;
   height: 49px;
-  border-radius: 50%;
   flex-shrink: 0;
   background: var(--gray);
 
   position: absolute;
   left: 0;
   top: 0;
+
+  > img {
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+  }
 `;
 
 export const Content = styled.div`

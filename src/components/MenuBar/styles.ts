@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components';
 
+
 import { 
   Home, 
   Notifications, 
@@ -9,6 +10,22 @@ import {
   ExitToApp, 
   Rocketseat 
 } from '../../styles/Icons';
+
+export const Avatar = styled.div`
+  width: 39px;
+  height: 39px;
+
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: var(--gray);
+
+  > img {
+    width: 39px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 50%;
+  }
+`;
 
 export const Container = styled.div`
   display: none;
@@ -134,14 +151,21 @@ export const Botside = styled.div`
   align-items: center;
 `;
 
-export const Avatar = styled.div`
-  width: 39px;
-  height: 39px;
+// export const Avatar = styled.div`
+//   width: 39px;
+//   height: 39px;
 
-  flex-shrink: 0;
-  border-radius: 50%;
-  background-color: var(--gray);
-`;
+//   flex-shrink: 0;
+//   border-radius: 50%;
+//   background-color: var(--gray);
+
+//   > img {
+//     width: 39px;
+//     height: 39px;
+//     flex-shrink: 0;
+//     border-radius: 50%;
+//   }
+// `;
 
 export const Profiledata = styled.div`
   display: none;
