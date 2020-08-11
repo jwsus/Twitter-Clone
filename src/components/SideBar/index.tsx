@@ -6,6 +6,8 @@ import List from '../List';
 
 import News from '../News';
 
+import Mensagens from '../Mensagens';
+
 import FollowSuggestion from '../FollowSuggestion';
 
 import { 
@@ -66,6 +68,7 @@ const SideBar: React.FC = () => {
         />
         </Body>
       </StickBox>
+      <Mensagens />
     </Container>
 
   );
