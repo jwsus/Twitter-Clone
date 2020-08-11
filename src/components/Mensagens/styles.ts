@@ -11,8 +11,8 @@ export const Container = styled.div`
   bottom: 0;
   position: fixed;
   /* margin-left: max(100px, min(250px, 22vw)); */
-  margin-left: min(8%);
-  margin-right: min(-30%);
+  margin-left: min(5%);
+  margin-right: min(-20%);
   border: solid 1px white;
   
 
