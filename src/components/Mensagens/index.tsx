@@ -1,11 +1,33 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { 
+  Container,
+  Header,
+  Icons,
+  Message,
+  Arrow,
+  Body, 
+  classe
+ } from './styles';
+
+
+const showMessage = () => {
+  
+}
 
 const Mensagens: React.FC = () => {
   return (
     <Container>
-      <span>Mensagens</span>
+      <Header>
+        <span>Mensagens</span>
+        <Icons>
+          {/* <Message /> */}
+          <Arrow onClick={showMessage}/>
+        </Icons>
+      </Header>
+      <Body >
+
+      </Body>
     </Container>
   );
 }
